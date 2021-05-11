@@ -21,6 +21,6 @@ The corpus is structured as a relational database, with four primary levels of d
 
 A more detailed contents of all the fields in these tables is provided in the [contents](https://github.com/ReubenJPitts/Annotated-Epigraphic-Corpus-of-Ancient-Italy/blob/main/contents.pdf). In addition, the information in the corpus on all levels is also made available as [a single file](https://github.com/ReubenJPitts/Annotated-Epigraphic-Corpus-of-Ancient-Italy/blob/main/full_corpus.csv).
 
-##Acknowledgements
-This research was partly carried out with a grant from the [Fonds Wetenschappelijke Onderzoek (FWO) – Vlaanderen](https://www.fwo.be/) (grant no 1150720N).
+## Acknowledgements
+This research was carried out with a grant from the [Fonds Wetenschappelijke Onderzoek (FWO) – Vlaanderen](https://www.fwo.be/) (grant no 1150720N).
 
