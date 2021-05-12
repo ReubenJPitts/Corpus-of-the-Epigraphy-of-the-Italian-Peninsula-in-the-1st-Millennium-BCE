@@ -2,6 +2,8 @@
 ## Introduction
 The Annotated Epigraphic Corpus of Ancient Italy is a linguistic database focusing on the Italian peninsula in the first millennium BCE. Currently, it covers Messapic, Venetic, the Sabellic languages and epigraphic Latin up to about 100 BCE.
 
+This database is a work in progress!
+
 ## Purpose of this corpus
 Ancient Italy in the first millennium B.C.E. presents a unique trove of linguistic information. Rarely, if anywhere, in the ancient world is such a diversity of languages preserved in so small a region, and their study is of great potential interest to Indo-Europeanists, historical linguists and typologists alike. Unfortunately, however, the accessibility of this data is currently limited: most of the languages of ancient Italy are documented only through printed corpora, and these sometimes lack any kind of linguistic analysis. And where online corpora do exist, they are either incomplete, or lack the level of annotation required for anything more than relatively superficial linguistic research.
 
