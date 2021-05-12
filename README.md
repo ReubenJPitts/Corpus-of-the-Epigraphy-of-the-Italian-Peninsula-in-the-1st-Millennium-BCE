@@ -21,8 +21,14 @@ The corpus is structured as a relational database, with four primary levels of d
 
 A more detailed contents of all the fields in these tables is provided in the [contents](https://github.com/ReubenJPitts/Annotated-Epigraphic-Corpus-of-Ancient-Italy/blob/main/contents.pdf). In addition, the information in the corpus on all levels is also made available as [a single file](https://github.com/ReubenJPitts/Annotated-Epigraphic-Corpus-of-Ancient-Italy/blob/main/full_corpus.csv).
 
-## Acknowledgements
-This research was carried out with a grant from the [Fonds Wetenschappelijke Onderzoek (FWO) – Vlaanderen](https://www.fwo.be/) (grant no 1150720N).
+## Colophon
+General editor: Reuben J. Pitts
+
+For any questions or comments please contact me at reuben.pitts@kuleuven.be.
+
+I would particularly like to thank Toon Van Hal, Mark Depauw and Tom Gheldof for their help and advice in the making of this corpus.
+
+This research was carried out with a grant from the [Fonds Wetenschappelijke Onderzoek (FWO) – Vlaanderen](https://www.fwo.be/) (grant no 1150720N), in the context of a doctoral project *The interplay between language contact and language change in a fragmentary linguistic area: the Italic peninsula in the first millennium BCE*.
 
 ## Terms of use
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
