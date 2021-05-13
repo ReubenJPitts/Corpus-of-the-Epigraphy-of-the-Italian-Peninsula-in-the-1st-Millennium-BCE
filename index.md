@@ -23,7 +23,6 @@ The corpus is structured as a relational database, with four primary levels of d
 A more detailed contents of all the fields in these tables is provided in the [contents](https://github.com/ReubenJPitts/Annotated-Epigraphic-Corpus-of-Ancient-Italy/blob/main/contents.pdf).
 
 ## Colophon
-
 General editor: Reuben J. Pitts
 
 For any questions or comments please contact me at reuben.pitts@kuleuven.be.
