@@ -10,7 +10,7 @@ This project aims to fill this lacuna by providing *a linguistically oriented an
 
 This corpus was created in the context of a research project on language contact in Ancient Italy. It is, therefore, strongly tailored to the needs of linguistic research (whether synchronic or diachronic in nature), and focuses on providing high-resolution and intercomparable linguistic information for each attested token in these ancient Indo-European languages. Although there is less emphasis on the archaeological and epigraphical context of these texts, the [Trismegistos link](https://www.trismegistos.org/) provided for each inscription can be used to track bibliography and metadata, and link the texts in this corpus to other projects, such as [EDCS](http://www.manfredclauss.de/) or [EDR](http://www.edr-edr.it/default/index.php).
 
-All files are published here as .csv files (utf-16 encoded). The data can be analysed via Python or R, or opened with spreadsheet software such as LibreOffice.
+All files are published here as .csv files (utf-16 encoded). The data can be analysed via Python or R, or opened with spreadsheet software such as LibreOffice Calc.
 
 ## Contents
 The corpus is structured as a relational database, with four levels of description, each of which stands in a one-to-many relationship with the immediately subordinate level, as follows:
