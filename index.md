@@ -27,7 +27,7 @@ General editor: Reuben J. Pitts
 
 For any questions or comments please contact me at reuben.pitts@kuleuven.be.
 
-I would particularly like to thank Freek Van de Velde, Toon Van Hal, Mark Depauw and Tom Gheldof for their help and advice in the making of this corpus.
+I would like to thank Toon Van Hal, Freek Van de Velde, Mark Depauw and Tom Gheldof for their help and advice in the making of this corpus.
 
 This research was carried out with a grant from the [Fonds Wetenschappelijke Onderzoek (FWO) – Vlaanderen](https://www.fwo.be/) (grant no 1150720N), in the context of the doctoral project [*The interplay between language contact and language change in a fragmentary linguistic area: the Italic peninsula in the first millennium BCE*](https://www.kuleuven.be/onderzoek/portaal/#/projecten/3H190594?lang=en&hl=en).
 
