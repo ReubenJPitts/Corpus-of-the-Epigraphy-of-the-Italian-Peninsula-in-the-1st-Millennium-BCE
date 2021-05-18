@@ -1,6 +1,8 @@
+Title: Vademecum
+
 *Annotated Epigraphic Corpus of Ancient Italy, version 1.0*
 
-*The following document provides a detailed field-by-field usage guide, description of contents, and methodological information for the database.*
+*The following page provides a detailed field-by-field usage guide, description of contents, and methodological information for the database.*
 
 # 1. Texts
 This table contains information pertaining to individual inscriptions as a whole. All information in this table was either entered manually, or entered through collaboration with Trismegistos and then manually completed.
