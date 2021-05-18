@@ -94,7 +94,7 @@ This table contains information on individual tokens within a syntactic unit, us
 
 The field was automatically generated using the unidecode module in Python, with a small number of modifications (to remove non-alphabetic characters, and to ensure that, for instance, Greek lunate sigma manifests as “s” rather than “c”).
 
-## 4.5 Syntax
+## 3.3. Syntax
 
 Syntactic information is provided on the level of Token, not Analysis, because it concerns the way in which tokens relate to each other. It is therefore tricky to incorporate multiple possible syntactic analyses into the design of a corpus, and this has been avoided.
 
