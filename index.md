@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: mainpage
 title: "Annotated Epigraphic Corpus of Ancient Italy"
 ---
 
