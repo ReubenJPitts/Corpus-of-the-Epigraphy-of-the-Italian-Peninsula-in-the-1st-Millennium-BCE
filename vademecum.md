@@ -7,6 +7,8 @@ title: "Vademecum"
 
 *The following page provides a detailed field-by-field usage guide, description of contents, and methodological information for the database.*
 
+Click [here](https://reubenjpitts.github.io/Annotated-Epigraphic-Corpus-of-Ancient-Italy) to return to the general overview.
+
 # 1. Texts
 This table contains information pertaining to individual inscriptions as a whole. All information in this table was either entered manually, or entered through collaboration with Trismegistos and then manually completed.
 
