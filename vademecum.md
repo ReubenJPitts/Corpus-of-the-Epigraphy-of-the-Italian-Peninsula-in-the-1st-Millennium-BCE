@@ -8,7 +8,7 @@ title: "Vademecum"
 *The following page provides a detailed field-by-field usage guide, description of contents, and methodological information for the database.*
 
 # 1. Texts
-This table contains information pertaining to individual inscriptions as a whole. All information in this table was either entered manually, or entered through collaboration with Trismegistos and then manually completed.
+This table contains information pertaining to individual inscriptions as a whole. All information in this table was either entered manually, or entered via Trismegistos and then manually completed.
 
 ## 1.1. Links
 **Text_ID**: The ID of the inscription within this corpus. This number can be used to link this table to other tables (sentences.csv and links.csv).
@@ -75,7 +75,7 @@ This field is meant only for convenient reference and should on absolutely no le
 This information was added manually.
 
 
- # 3. Tokens
+# 3. Tokens
 
 This table contains information on individual tokens within a syntactic unit, usually words or enclitics.
 
