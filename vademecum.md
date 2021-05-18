@@ -1,3 +1,9 @@
+---
+title: Vademecum
+theme: jekyll-theme-cayman
+filename: vademecum.md
+--- 
+
 *Annotated Epigraphic Corpus of Ancient Italy, version 1.0*
 
 *The following document provides a detailed field-by-field usage guide, description of contents, and methodological information for the database.*
