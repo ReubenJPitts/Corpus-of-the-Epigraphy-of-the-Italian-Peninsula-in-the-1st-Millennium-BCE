@@ -1,4 +1,4 @@
-Title: Vademecum
+Title:Vademecum
 
 *Annotated Epigraphic Corpus of Ancient Italy, version 1.0*
 
