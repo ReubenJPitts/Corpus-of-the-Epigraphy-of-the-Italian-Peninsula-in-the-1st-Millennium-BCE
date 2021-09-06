@@ -4,7 +4,9 @@ title: "Annotated Epigraphic Corpus of Ancient Italy"
 ---
 
 ## Introduction
-The Annotated Epigraphic Corpus of Ancient Italy is a linguistic database focusing on the Italian peninsula in the first millennium BCE. Currently, it covers Messapic, Venetic, the Sabellic languages and epigraphic Latin up to about 100 BCE.
+The Corpus of the Epigraphy of the Italian Peninsula in the 1st Millennium BCE, or CEIPoM, is a linguistic database focusing on the Italian peninsula in the first millennium BCE. Currently, it covers Messapic, Venetic, the Sabellic languages and epigraphic Latin up to about 100 BCE.
+
+The acronym CEIPoM represents the genitive plural of an archaic form of the Latin cippus, which can be reconstructed (De Vaan p. 115) and may also be attested (see Token_ID 418500). With a little interpretative licence, the form may be translated as "pertaining to inscriptions", and thus succinctly expresses the focus of this database.
 
 This database is a work in progress!
 
