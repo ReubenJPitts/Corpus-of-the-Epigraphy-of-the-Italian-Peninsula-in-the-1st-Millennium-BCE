@@ -8,6 +8,10 @@ It is important always to specify which version of the Italic corpus was used to
 
 First online publication of the corpus.
 
+## [1.1 (2021-09-06)]
+
+The syntactic information included in the corpus was revised and expanded, and a number of errors and inconsistencies in the morphological annotation were resolved.
+
 
 
 
