@@ -1,6 +1,6 @@
 ---
 layout: mainpage
-title: "Corpus-of-the-Epigraphy-of-the-Italian-Peninsula-in-the-1st-Millennium-BCE"
+title: "Corpus of the Epigraphy of the Italian Peninsula in the 1st Millennium BCE"
 ---
 
 ## Introduction
