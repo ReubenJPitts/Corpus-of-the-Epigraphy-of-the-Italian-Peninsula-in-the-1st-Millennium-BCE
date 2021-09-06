@@ -1,4 +1,4 @@
-*Annotated Epigraphic Corpus of Ancient Italy, version 1.0*
+*Annotated Epigraphic Corpus of Ancient Italy, version 1.1*
 
 *The following document provides a detailed field-by-field usage guide, description of contents, and methodological information for the database.*
 
@@ -8,7 +8,7 @@ This table contains information pertaining to individual inscriptions as a whole
 ## 1.1. Links
 **Text_ID**: The ID of the inscription within this corpus. This number can be used to link this table to other tables (sentences.csv and links.csv).
 
-**Reference**: A single bibliographical reference for this inscription, typically its reference in the principal printed corpus in general use. For instance, the corpus aims to provide the CIL reference for Latin inscriptions and Crawford for Sabellic. As of version 1.0 this field is still under construction.
+**Reference**: A single bibliographical reference for this inscription, typically its reference in the principal printed corpus in general use. For instance, the corpus aims to provide the CIL reference for Latin inscriptions and Crawford for Sabellic. As of version 1.1 this field is still under construction.
 
 **Name**: The informal name of the inscription. For instance, values of this field include Fibula Praenestina and Iguvine Tables. This field currently contains values for only a select few texts.
 
@@ -65,7 +65,7 @@ Since the focus of this corpus is linguistic, not epigraphic, the resolution her
 
 This field is meant only for convenient reference and should on absolutely no level be considered as an alternative to consulting an epigraphic apparatus.
 
-**Section**: In the rare cases where a text is long enough that a subdivision into larger units than sentences, this field keeps track of them. Currently this applies only to the Iguvine Tables (where this field keeps track of tables running from I to VIIb).
+**Section**: In the rare cases where a text is long enough that a subdivision into larger units than sentences is useful, this field keeps track of them. Currently this applies only to the Iguvine Tables (where this field keeps track of tables running from I to VIIb).
 
 This information was added manually.
 
@@ -100,9 +100,9 @@ Syntactic information is provided on the level of Token, not Analysis, because i
 
 A dependency grammar model is adhered to for syntactic annotation, in line with much recent work on computational approaches to ancient Greek and Latin syntax.
 
-The corpus largely follows v. 1.3. of the [Perseus guidelines](http://static.perseus.tufts.edu/docs/guidelines.pdf) for the syntactic annotation of Latin. A few modifications have been implemented for features that are unsuited for the annotation of an epigraphic corpus. For instance, the corpus does not assign syntactic roles to sentence punctuation, which is typically absent from epigraphic inscriptions and is therefore primarily an editorial choice. Instead, blank tokens (with “-” in the Token field) are used to fill syntactic roles that are not represented by actual tokens in the text.
+The corpus largely follows v. 2.0. of the [Perseus guidelines](https://github.com/PerseusDL/treebank_data/blob/master/AGDT2/guidelines/Greek_guidelines.md) for the syntactic annotation of Ancient Greek. A few modifications have been implemented for features that are unsuited for the annotation of an epigraphic corpus. For instance, the corpus does not assign syntactic roles to sentence punctuation, which is typically absent from epigraphic inscriptions and is therefore primarily an editorial choice. Instead, blank tokens (with “-” in the Token field) are used to fill syntactic roles that are not represented by actual tokens in the text.
 
-These fields are a work in progress: currently, data is included for most Sabellic, Venetic and Messapic inscriptions containing at least one verb.
+These fields are a work in progress. As of version 1.1, data is included for all sentences containing at least one verb, except for four of the longest inscriptions in Latin, which are also relatively late (Text_IDs 3605, 5988, 15380, 15381).
 
 All information was added manually.
 
@@ -309,7 +309,7 @@ This field also standardises Old Latin forms to classical Latin. Thus the Old La
 
 **Classical_Latin_form**: Equivalent to the above, but the classical Latin equivalent is here appropriately inflected, rather than simply giving a dictionary form.
 
-This field was initially generated automatically, using a modified version of the software underlying [Whitaker’s Words](https://archives.nd.edu/words.html). Its output was then corrected manually (not yet complete for version 1.0).
+This field was initially generated automatically, using a modified version of the software underlying [Whitaker’s Words](https://archives.nd.edu/words.html). Its output was then corrected manually (not yet complete for version 1.1).
 
 **TAM_analysis**: Information on the tense, aspect and modality of verb forms. This column contains the data used for Pitts (2020) and is limited to finite verb forms in Sabellic. All data was entered manually.
 
