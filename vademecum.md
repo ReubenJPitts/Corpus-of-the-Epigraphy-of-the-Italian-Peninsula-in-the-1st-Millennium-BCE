@@ -75,7 +75,7 @@ This field is meant only for convenient reference and should on absolutely no le
 This information was added manually.
 
 
- # 3. Tokens
+# 3. Tokens
 
 This table contains information on individual tokens within a syntactic unit, usually words or enclitics.
 
