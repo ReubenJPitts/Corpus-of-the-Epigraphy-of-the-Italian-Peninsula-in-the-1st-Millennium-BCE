@@ -330,7 +330,7 @@ Since the alignment guarantees that both strings are the same length, they can b
 
 Currently these fields contain data for Latin and Sabellic. However, the field Standard_aligned contains somewhat different data for these languages. In the case of Latin, the “standard” form is simply the classical Latin form, equivalent to the field Classical_Latin_form (except aligned). For Sabellic, however, the field contains one of the older etymological forms suggested in Unterman (2000).
 
-Currently the Latin alignment is automatic (using the alignment functions in the historical linguistics module LingPy). The Sabellic data were aligned manually.
+Currently the Latin alignment is automatic (using the alignment functions in the historical linguistics module [LingPy](https://lingpy.org/)). The Sabellic data were aligned manually.
 
 **Form_aligned**: See above.
 	
