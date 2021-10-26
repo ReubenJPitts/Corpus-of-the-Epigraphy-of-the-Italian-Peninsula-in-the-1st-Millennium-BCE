@@ -97,7 +97,7 @@ This table contains information on individual tokens within a syntactic unit, us
 
 **Token_clean**: This field is intended for ease of searching. It reproduces the token stripped of all special or non-alphabetic characters, and in transliteration where a non-Latin symbol is used.
 
-The field was automatically generated using the unidecode module in Python, with a small number of modifications (to remove non-alphabetic characters, and to ensure that, for instance, Greek lunate sigma manifests as “s” rather than “c”).
+The field was automatically generated using the [unidecode module](https://pypi.org/project/Unidecode/) in Python, with a small number of modifications (to remove non-alphabetic characters, and to ensure that, for instance, Greek lunate sigma manifests as “s” rather than “c”).
 
 ## 3.3. Syntax
 
@@ -125,7 +125,7 @@ Except where indicated otherwise, the data in this table was annotated manually.
 
 * For Latin an initial morphological analysis was attempted using [Morpheus](http://www.perseus.tufts.edu/hopper/xmlmorph?lang=lat&lookup=fibula).
 
-* For Sabellic, Venetic and Messapic, dictionaries of all attested forms were first prepared, which were then linked to the tokens by string searches or fuzzy-searches (with the *fuzzywuzzy* module in Python).
+* For Sabellic, Venetic and Messapic, dictionaries of all attested forms were first prepared, which were then linked to the tokens by string searches or fuzzy-searches (with the [fuzzywuzzy module](https://pypi.org/project/fuzzywuzzy/) in Python).
 
 Unsurprisingly, however, an epigraphic corpus is “messy” and does not lend itself well to this kind of shortcut, so all of the data underwent extensive manual correction.
 
@@ -149,7 +149,7 @@ Unsurprisingly, however, an epigraphic corpus is “messy” and does not lend i
 
 Note that the lemma field does not disambiguate homonyms. Thus, searching dico will return forms of dicare and dicere without fear or favour. This avoids the need to resort to arbitrary and confusing disambiguations such as *dico_2*. If one wishes to find only forms of dicere, use this field in combination with “morphological type” to specify the conjugation.
 
-The lemma is the dictionary form in Latin (masculine nominative singular for nominal forms, active present indicative first person singular for verbs). For other Italic languages, where such a dictionary form is usually not attested, it is a regularised form of the root (e.g. *deyk* in Sabellic). The conventions used for regularising the lemma are not exactly equivalent for all languages in the corpus (although they are, of course, internally consistent): cross-linguistic lemma searches should use the field “Classical_Latin_equivalent”, as described below.
+The lemma is the dictionary form in Latin (masculine nominative singular for nominal forms, active present indicative first person singular for verbs). For other Italic languages, where such a dictionary form is usually not attested, it is - currently somewhat arbitrarily - regularised form of the root (e.g. *deyk* in Sabellic). The conventions used for regularising the lemma are not exactly equivalent for all languages in the corpus (although they are, of course, internally consistent): cross-linguistic lemma searches should use the field “Classical_Latin_equivalent”, as described below.
 
 **Lemma_simplex**: Usually equivalent to “Lemma”, except that this field gives the simplex form of a compound lemma. For instance, the “Lemma” entry for the token *perfecerit* is *perficio*, while the “Lemma_simplex” is simply *facio*.
 
@@ -310,13 +310,13 @@ These tags are generated automatically based on string searches in the preceding
 
 For instance, one may wish to find all occurrences of a first person pronoun in Italic languages. One can do so simply by searching *ego* in this field.
 
-This field also standardises Old Latin forms to classical Latin. Thus the Old Latin verb *to, tare* “to steal”, for instance, becomes furor in this field.
+This field also standardises Old Latin forms to classical Latin. Thus the Old Latin verb *\*to, tare* “to steal”, for instance, becomes furor in this field.
 
 **Classical_Latin_form**: Equivalent to the above, but the classical Latin equivalent is here appropriately inflected, rather than simply giving a dictionary form.
 
 This field was initially generated automatically, using a modified version of the software underlying [Whitaker’s Words](https://archives.nd.edu/words.html). Its output was then corrected manually (not yet complete for version 1.1).
 
-**TAM_analysis**: Information on the tense, aspect and modality of verb forms. This column contains the data used for Pitts (2020) and is limited to finite verb forms in Sabellic. All data was entered manually.
+**TAM_analysis**: Information on the tense, aspect and modality of verb forms. This column contains the data used for [Pitts (2020)](http://www.safran.be/proddetail.php?prod=LCA31) and is limited to finite verb forms in Sabellic. All data was entered manually.
 
 ## 4.5. Phonology and orthography
 
