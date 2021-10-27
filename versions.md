@@ -12,7 +12,7 @@ First online publication of the corpus.
 
 The syntactic information included in the corpus was revised and expanded, and a number of errors and inconsistencies in the morphological annotation were resolved.
 
-## 1.2 (2021-10-26)
+## [1.2 (2021-10-26)](https://doi.org/10.5281/zenodo.5602978)
 
 Some errors in the Messapic text were cleaned up, and a number of inconsistencies in the morphological annotation were resolved.
 
