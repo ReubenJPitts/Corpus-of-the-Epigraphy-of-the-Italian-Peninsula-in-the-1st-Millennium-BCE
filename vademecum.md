@@ -318,7 +318,7 @@ This field also standardises Old Latin forms to classical Latin. Thus the Old La
 
 This field was initially generated automatically, using a modified version of the software underlying [Whitaker’s Words](https://archives.nd.edu/words.html). Its output was then corrected manually (not yet complete for version 1.2).
 
-**TAM_analysis**: Information on the tense, aspect and modality of verb forms. This column contains the data used for [Pitts (2020)](http://www.safran.be/proddetail.php?prod=LCA31) and is limited to finite verb forms in Sabellic. All data was entered manually.
+**TAM_analysis**: Information on the tense, aspect and modality of verb forms. This column contains the data used for [Pitts (2020)](https://www.academia.edu/43093775/Tense_Aspect_and_Modality_in_the_Sabellic_Languages) and is limited to finite verb forms in Sabellic. All data was entered manually.
 
 ## 4.5. Phonology and orthography
 
