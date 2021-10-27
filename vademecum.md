@@ -107,7 +107,7 @@ A dependency grammar model is adhered to for syntactic annotation, in line with 
 
 The corpus largely follows v. 2.0. of the [Perseus guidelines](https://github.com/PerseusDL/treebank_data/blob/master/AGDT2/guidelines/Greek_guidelines.md) for the syntactic annotation of Ancient Greek. A few modifications have been implemented for features that are unsuited for the annotation of an epigraphic corpus. For instance, the corpus does not assign syntactic roles to sentence punctuation, which is typically absent from epigraphic inscriptions and is therefore primarily an editorial choice. Instead, blank tokens (with “-” in the Token field) are used to fill syntactic roles that are not represented by actual tokens in the text.
 
-These fields are a work in progress. As of version 1.1, data is included for all sentences containing at least one verb, except for four of the longest inscriptions in Latin, which are also relatively late (Text_IDs 3605, 5988, 15380, 15381).
+These fields are a work in progress. As of version 1.2, data is included for all sentences containing at least one verb, except for four of the longest inscriptions in Latin, which are also relatively late (Text_IDs 3605, 5988, 15380, 15381).
 
 All information was added manually.
 
@@ -316,7 +316,7 @@ This field also standardises Old Latin forms to classical Latin. Thus the Old La
 
 **Classical_Latin_form**: Equivalent to the above, but the classical Latin equivalent is here appropriately inflected, rather than simply giving a dictionary form.
 
-This field was initially generated automatically, using a modified version of the software underlying [Whitaker’s Words](https://archives.nd.edu/words.html). Its output was then corrected manually (not yet complete for version 1.1).
+This field was initially generated automatically, using a modified version of the software underlying [Whitaker’s Words](https://archives.nd.edu/words.html). Its output was then corrected manually (not yet complete for version 1.2).
 
 **TAM_analysis**: Information on the tense, aspect and modality of verb forms. This column contains the data used for [Pitts (2020)](http://www.safran.be/proddetail.php?prod=LCA31) and is limited to finite verb forms in Sabellic. All data was entered manually.
 
