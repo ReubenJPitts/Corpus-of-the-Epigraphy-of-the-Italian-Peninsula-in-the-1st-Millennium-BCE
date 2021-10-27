@@ -3,7 +3,7 @@ layout: default
 title: "Vademecum"
 ---
 
-*Annotated Epigraphic Corpus of Ancient Italy, version 1.1*
+*Annotated Epigraphic Corpus of Ancient Italy, version 1.2*
 
 *The following document provides a detailed field-by-field usage guide, description of contents, and methodological information for the database.*
 
@@ -13,7 +13,7 @@ This table contains information pertaining to individual inscriptions as a whole
 ## 1.1. Links
 **Text_ID**: The ID of the inscription within this corpus. This number can be used to link this table to other tables (sentences.csv and links.csv).
 
-**Reference**: A single bibliographical reference for this inscription, typically its reference in the principal printed corpus in general use. For instance, the corpus aims to provide the CIL reference for Latin inscriptions and Crawford for Sabellic. As of version 1.1 this field is still under construction.
+**Reference**: A single bibliographical reference for this inscription, typically its reference in the principal printed corpus in general use. For instance, the corpus aims to provide the CIL reference for Latin inscriptions and Crawford for Sabellic. As of version 1.2 this field is still under construction.
 
 **Name**: The informal name of the inscription. For instance, values of this field include Fibula Praenestina and Iguvine Tables. This field currently contains values for only a select few texts.
 
@@ -32,7 +32,7 @@ This table contains information pertaining to individual inscriptions as a whole
 **Date_before**: The latest possible date of this inscription.
 
 ## 1.4. Provenance
-**Provenance**: The location (town or city) in which this inscription was found. In some cases inscriptions are known to have been written in a different location to where they were found. In those cases, provenance provides the location where the text was written.
+**Provenance**: The location (town or city) from which this inscription originates.
 
 **GeoID**: The ID allocated to this location by Trismegistos.
 
@@ -193,6 +193,8 @@ Annotated as|description
 ---|---
 INDECL|indeclinable, e.g. *ita, de, frugi*
 IRR|wide variety of stems, e.g. *sum, eo, qui…*
+
+Occasionally, different values are employed for language-specific reasons: for instance, Messapic verbs are classified by whether they form a V-preterite or an S-preterite.
 
 **Part_of_speech**: The part of speech of the token analysed (noun, verb, etc.).
 
