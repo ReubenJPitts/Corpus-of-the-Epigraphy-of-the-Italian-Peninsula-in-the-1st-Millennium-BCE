@@ -29,7 +29,7 @@ The corpus is structured as a relational database, with four levels of descripti
 
 In addition, the file [links](https://github.com/ReubenJPitts/Annotated-Epigraphic-Corpus-of-Ancient-Italy/blob/main/links.csv) allows the texts in the database to be linked to extensive metadata and bibliography via their [Trismegistos ID](https://www.trismegistos.org/).
 
-A detailed discussion and usage guide for all the fields in the database [can be found here](https://reubenjpitts.github.io/Annotated-Epigraphic-Corpus-of-Ancient-Italy/vademecum).
+A detailed discussion and usage guide for all the fields in the database [can be found here](https://reubenjpitts.github.io/Corpus-of-the-Epigraphy-of-the-Italian-Peninsula-in-the-1st-Millennium-BCE/vademecum).
 
 ## Colophon
 General editor: Reuben J. Pitts
