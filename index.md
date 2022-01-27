@@ -32,7 +32,7 @@ In addition, the file [links](https://github.com/ReubenJPitts/Annotated-Epigraph
 A detailed discussion and usage guide for all the fields in the database [can be found here](https://reubenjpitts.github.io/Corpus-of-the-Epigraphy-of-the-Italian-Peninsula-in-the-1st-Millennium-BCE/vademecum).
 
 ## How to cite
-CEIPoM should be cited as the following publication:
+CEIPoM should be cited as [the following publication](https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.65/):
 
 > Pitts, R.J., 2022. Corpus of the Epigraphy of the Italian Peninsula in the 1st Millennium BCE (CEIPoM). Journal of Open Humanities Data, 8, p.1. DOI: http://doi.org/10.5334/johd.65
 
