@@ -3,7 +3,7 @@ layout: default
 title: "Vademecum"
 ---
 
-*Annotated Epigraphic Corpus of Ancient Italy, version 1.2*
+*Annotated Epigraphic Corpus of Ancient Italy, version 1.3*
 
 *The following document provides a detailed field-by-field usage guide, description of contents, and methodological information for the database.*
 
@@ -13,7 +13,7 @@ This table contains information pertaining to individual inscriptions as a whole
 ## 1.1. Links
 **Text_ID**: The ID of the inscription within this corpus. This number can be used to link this table to other tables (sentences.csv and links.csv).
 
-**Reference**: A single bibliographical reference for this inscription, typically its reference in the principal printed corpus in general use. For instance, the corpus aims to provide the CIL reference for Latin inscriptions and Crawford for Sabellic. As of version 1.2 this field is still under construction.
+**Reference**: A single bibliographical reference for this inscription, typically its reference in the principal printed corpus in general use. For instance, the corpus aims to provide the CIL reference for Latin inscriptions and Crawford for Sabellic. As of version 1.3 this field is still under construction.
 
 **Name**: The informal name of the inscription. For instance, values of this field include Fibula Praenestina and Iguvine Tables. This field currently contains values for only a select few texts.
 
@@ -107,7 +107,7 @@ A dependency grammar model is adhered to for syntactic annotation, in line with 
 
 The corpus largely follows v. 2.0. of the [Perseus guidelines](https://github.com/PerseusDL/treebank_data/blob/master/AGDT2/guidelines/Greek_guidelines.md) for the syntactic annotation of Ancient Greek. A few modifications have been implemented for features that are unsuited for the annotation of an epigraphic corpus. For instance, the corpus does not assign syntactic roles to sentence punctuation, which is typically absent from epigraphic inscriptions and is therefore primarily an editorial choice. Instead, blank tokens (with “-” in the Token field) are used to fill syntactic roles that are not represented by actual tokens in the text.
 
-These fields are a work in progress. As of version 1.2, data is included for all sentences containing at least one verb, except for four of the longest inscriptions in Latin, which are also relatively late (Text_IDs 3605, 5988, 15380, 15381).
+These fields are a work in progress. As of version 1.3, data is included for all sentences containing at least one verb, except for four of the longest inscriptions in Latin, which are also relatively late (Text_IDs 3605, 5988, 15380, 15381).
 
 All information was added manually.
 
@@ -147,13 +147,15 @@ Unsurprisingly, however, an epigraphic corpus is “messy” and does not lend i
 
 **Lemma**: The lemma to which the current token belongs.
 
-Note that the lemma field does not disambiguate homonyms. Thus, searching dico will return forms of dicare and dicere without fear or favour. This avoids the need to resort to arbitrary and confusing disambiguations such as *dico_2*. If one wishes to find only forms of dicere, use this field in combination with “morphological type” to specify the conjugation.
+Specifying the lemma of inflected words in a fragmentary corpus is a challenging task, as the dictionary form (e.g. the nominative singular) is often not attested. Early versions of CEIPoM used the dictionary form in Latin, but resorted to a (somewhat arbitrary) abstraction of the stem for less well attested languages.
 
-The lemma is the dictionary form in Latin (masculine nominative singular for nominal forms, active present indicative first person singular for verbs). For other Italic languages, where such a dictionary form is usually not attested, it is - currently somewhat arbitrarily - regularised form of the root (e.g. *deyk* in Sabellic). The conventions used for regularising the lemma are not exactly equivalent for all languages in the corpus (although they are, of course, internally consistent): cross-linguistic lemma searches should use the field “Classical_Latin_equivalent”, as described below.
+Starting from version 1.3. this field now uses the same basic convention across all languages in the database. Each simplex lemma is now assigned an arbitrary five-digit number, and any compound forms are disambiguated by additional letters.
 
-**Lemma_simplex**: Usually equivalent to “Lemma”, except that this field gives the simplex form of a compound lemma. For instance, the “Lemma” entry for the token *perfecerit* is *perficio*, while the “Lemma_simplex” is simply *facio*.
+Thus, for instance, the Latin *perfecerit* belongs to the lemma *perficio* (12495f) and to the simplex lemma *facio* (12495). To find any other form of *perficio*, therefore, search for 12495f in the field “Lemma”. To find any other form of *facio*, including also forms of other compounds such as *adficio* or *conficio*, search for 12495 in the field “Lemma_simplex”.
 
-**Lemma_frequency**: The number of times this particular value occurs in the “Lemma” field in this language. As noted above, be aware that “Lemma” does not discriminate between homonyms.
+**Lemma_simplex**: See above.
+
+**Lemma_frequency**: The number of times this particular value occurs in the “Lemma” field in this language.
 
 **Language**: The language this token is analysed as belonging to. This field may differ from the “main language” of the inscription as a whole (provided in texts.csv), as inscriptions often contain tokens in multiple languages. In addition, the same token may have different possible analyses in different languages.
 
@@ -316,7 +318,7 @@ This field also standardises Old Latin forms to classical Latin. Thus the Old La
 
 **Classical_Latin_form**: Equivalent to the above, but the classical Latin equivalent is here appropriately inflected, rather than simply giving a dictionary form.
 
-This field was initially generated automatically, using a modified version of the software underlying [Whitaker’s Words](https://archives.nd.edu/words.html). Its output was then corrected manually (not yet complete for version 1.2).
+This field was initially generated automatically, using a modified version of the software underlying [Whitaker’s Words](https://archives.nd.edu/words.html). Its output was then corrected manually (not yet complete for version 1.3).
 
 **TAM_analysis**: Information on the tense, aspect and modality of verb forms. This column contains the data used for [Pitts (2020)](https://www.academia.edu/43093775/Tense_Aspect_and_Modality_in_the_Sabellic_Languages) and is limited to finite verb forms in Sabellic. All data was entered manually.
 
