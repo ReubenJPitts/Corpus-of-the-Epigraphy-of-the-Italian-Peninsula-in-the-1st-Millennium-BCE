@@ -16,7 +16,7 @@ The syntactic information included in the corpus was revised and expanded, and a
 
 Some errors in the Messapic text were cleaned up, and a number of inconsistencies in the morphological annotation were resolved.
 
-## [1.3 (2022-04-21)
+## [1.3 (2022-04-21](https://doi.org/10.5281/zenodo.6475427)
 
 A uniform numeric standard is now used for the Lemma and Lemma_simplex fields across all languages in the database.
 
