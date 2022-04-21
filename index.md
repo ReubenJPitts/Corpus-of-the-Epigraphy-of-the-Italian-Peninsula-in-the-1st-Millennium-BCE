@@ -36,7 +36,7 @@ CEIPoM should be cited as [the following publication](https://openhumanitiesdata
 
 > Pitts, R.J., 2022. Corpus of the Epigraphy of the Italian Peninsula in the 1st Millennium BCE (CEIPoM). Journal of Open Humanities Data, 8, p.1. DOI: http://doi.org/10.5334/johd.65
 
-Since this database is a work in progress, and updated versions will be released periodically, when basing research results on CEIPoM it important to specify the version used (currently CEIPoM 1.3). This will allow any findings to be replicated by other researchers.
+Since this database is a work in progress, and updated versions will be released periodically, when basing research results on CEIPoM it is important to specify the version used (currently CEIPoM 1.3). This will allow any findings to be replicated by other researchers.
 
 ## Colophon
 General editor: Reuben J. Pitts
